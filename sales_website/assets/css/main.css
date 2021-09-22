@@ -960,6 +960,32 @@ background-color: #fafafa;
     color: #555;
 }
 
+/* Carousel */
+.carousel{
+    top: 30px;
+    margin: 0 5px;
+    padding-bottom: 30px;
+}
+
+.carousel-indicators{
+    margin-bottom: 35px;
+}
+
+.ex-carousel img{
+    height: 348px;
+    max-width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: unset;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #333;
+    height: 50px;
+    width: 30px;
+}
+
+
 /* Product item */
 .home-product {
     margin-bottom: 10px;
