@@ -1,4 +1,4 @@
-
+HTML-CSS
     1. h1 - h6 - heading
     2. p - paragraph
     3. img -image
@@ -62,3 +62,64 @@
     CSS position: Sticky
     Flexbox
     Thuộc tính CSS trong Flexbox
+
+JAVASCRIPT
+
+    Một số hàm built-in
+    1. Alert
+    2. Console
+    3. Confirm 
+    4. Prompt
+    5. Set timeout
+    6. Set interval 
+
+    Toán tử trong Javascript
+    1. Toán tử số học - Arithmetic ( +, -, *, **(lũy thừa), /, %(chia lấy số dư), ++, -- )
+    2. Toán tử gán - Assignment ( =, +=, -=, *=, /=, **= )
+    3. Toán tử so sánh -Comparison ( ==, !=, >, <, >=, <=, ===, !== )
+    4. Toán tử logic - Logical ( &&, ||, ! )
+
+    Kiểu dữ liệu trong Javascript
+    1. Dữ liệu nguyên thủy - Primitive Data ( Number, String, Boolean, Undefined, Null, Symbol)
+    2. Dữ liệu phức tạp - Complex Data ( Function, Object )
+
+    Javascript string methods
+    (Length, Find index, Cut String, Replace, Convert to upper case, Convert to lower case, Trim, Split, Get a character by index)
+
+------------
+    HTML DOM
+    Có 3 thành phần:
+    1. Element
+    2. Attribute
+    3. Text
+
+    1. Event listener 
+        Xử lý nhiều việc khi 1 event xảy ra
+        Lắng nghe/ Hủy bỏ lắng nghe
+    2. JSON ( là một định dạng dữ liệu (chuỗi) ) - Javascript Object Notation
+        JSON: Number, String, Boolean, Null, Array
+        Mã hóa/ Giải Mã
+        Encode/ Decode
+
+        Stringify: Từ Javascript types -> JSON
+
+        console/log(JSON.Stringify({
+            name: 'Anh Tran',
+            age: 22
+        }));
+
+        Parse: Từ JSON -> Javascript types
+
+        var json = '["Javascript","JAVA"]';
+        var json = '{"name":"Anh Tran", "age": 22}';
+
+        console.log(JSON.parse(json));
+    3. Fetch
+    4. DOM loaction
+    5. Local storage
+    6. Session storage
+    7. Coding convention
+    8. Best Practices
+    9. Mistakes
+    10. Perfomance
+        
