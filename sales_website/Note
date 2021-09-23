@@ -89,13 +89,26 @@ JAVASCRIPT
 ------------
     HTML DOM
     Có 3 thành phần:
-    1. Element
+    1. Element: ID, class, tag, CSS selector, HTML collection
     2. Attribute
     3. Text
 
     1. Event listener 
         Xử lý nhiều việc khi 1 event xảy ra
+
+        var btn = document.getElementById('btn');
+
+        function event1() {
+            console.log('viec 1');
+        }
+        btn.addEventListener('click', event);
+
         Lắng nghe/ Hủy bỏ lắng nghe
+
+        setTimeout(function () {
+            btn.removeEvenListener('click', event1)
+        }, 3000);
+
     2. JSON ( là một định dạng dữ liệu (chuỗi) ) - Javascript Object Notation
         JSON: Number, String, Boolean, Null, Array
         Mã hóa/ Giải Mã
@@ -114,12 +127,38 @@ JAVASCRIPT
         var json = '{"name":"Anh Tran", "age": 22}';
 
         console.log(JSON.parse(json));
-    3. Fetch
-    4. DOM loaction
-    5. Local storage
-    6. Session storage
-    7. Coding convention
-    8. Best Practices
-    9. Mistakes
-    10. Perfomance
+
+    3. Promise ( Sync, Async, nỗi đau, lý thuyết & cách hoạt động, thực hành & ví dụ)
+
+    Sync/ Async
+    (setTimeout, setInterval, fetch, XMLHttpRequest, file reading, request animation frame)
+
+    setTimeout(function() {
+        console.log(1);
+    }, 1000);
+
+    console.log(2);
+
+    Callback hell
+
+    setTimeout(function() {
+        console.log(1);
+        setTimeout(function() {
+            console.log(2);
+            setTimeout(function() {
+                console.log(3);
+            }, 1000);
+        }, 1000);
+    }, 1000);
+    
+    Pyramid of doom
+
+    4. Fetch
+    5. DOM loaction
+    6. Local storage
+    7. Session storage
+    8. Coding convention
+    9. Best Practices
+    10. Mistakes
+    11. Perfomance
         
