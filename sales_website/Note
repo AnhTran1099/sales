@@ -150,8 +150,31 @@ JAVASCRIPT
             }, 1000);
         }, 1000);
     }, 1000);
-    
+
     Pyramid of doom
+
+    ----
+    3 trạng thái promise (pendding, fulfilled, rejected)
+    
+    var promise = new Promise(
+        //excutor
+        function(resolve, reject) {
+            //logic
+            //thành công: resolve()
+            //thất bại: reject()
+        }
+    );
+
+    promise
+        .then(function() {
+            console.log('Successully!');
+        })
+        .catch(function() {
+            console.log('Failure!');
+        })
+        .finally(function() {
+            console.log('Done!');
+        });
 
     4. Fetch
     5. DOM loaction

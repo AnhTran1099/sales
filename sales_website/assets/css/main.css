@@ -1182,6 +1182,23 @@ i.home-product-item__like-icon-fill {
     margin: 48px 0 32px 0;
 }
 
+/* Scroll */
+
+#goto-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 100%;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
 /* Footer */
 
 .footer {
